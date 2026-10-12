@@ -43,3 +43,28 @@ IMSProg need proper udev rules to access EEPROM programmer. IMSProg AppImage wil
 		./IMSProg-1.9.1-x86_64.AppImage IMSProg_database_update
 		```
 		
+## How to install IMSProg from source
+**OS:** Arch Linux
+ - Install software dependencies
+	 ```sh
+	 sudo pacman -Syu base-devel git cmake libusb libftdi pkgconf wget qt6-tools
+	 ```
+ - Download source code and extract
+ 	 ```sh
+	 wget "https://github.com/bigbigmdm/IMSProg/archive/refs/tags/v1.9.1.tar.gz"
+	 tar xvzf v1.9.1.tar.gz
+	 ```
+ - Build IMSProg
+ 	 ```sh
+	 cd IMSProg_1.9.1
+	 sudo ./build_all.sh
+	 ``` 	
+	 
+## How to create AppImage
+```sh
+	mkdir appimage
+	cd appimage
+	wget "https://raw.githubusercontent.com/aashiashique/imsprog-appimage/refs/heads/main/make_appimage.sh"
+	sudo chmod +x make_appimage.sh
+	./make_appimage.sh
+```
