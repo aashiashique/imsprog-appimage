@@ -5,7 +5,7 @@
 # Unofficial AppImages for IMSProg
 IMSProg - software for CH341A-based programmers to work with I2C, SPI and MicroWire EEPROM/Flash chips
 
-**Official IMSProg:** https://github.com/bigbigmdm/IMSProg/
+**Source / Upstream:** https://github.com/bigbigmdm/IMSProg/
 
 ## Important: Add udev rules
 IMSProg need proper udev rules to access EEPROM programmer. IMSProg AppImage will prompt you to add udev rules when you run it for the first time; if the prompt does not appear or if you cancel the prompt, add udev rules manually by copying 71-CH341.rules to /etc/udev/rules.d/
