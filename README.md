@@ -62,9 +62,9 @@ IMSProg need proper udev rules to access EEPROM programmer. IMSProg AppImage wil
 	 
 ## How to create AppImage
 ```sh
-	mkdir appimage
-	cd appimage
-	wget "https://raw.githubusercontent.com/aashiashique/imsprog-appimage/refs/heads/main/make_appimage.sh"
-	sudo chmod +x make_appimage.sh
-	./make_appimage.sh
+mkdir appimage
+cd appimage
+wget "https://raw.githubusercontent.com/aashiashique/imsprog-appimage/refs/heads/main/make_appimage.sh"
+sudo chmod +x make_appimage.sh
+./make_appimage.sh
 ```
