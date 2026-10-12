@@ -7,7 +7,7 @@ IMSProg - software for CH341A-based programmers to work with I2C, SPI and MicroW
 
 **Source / Upstream:** https://github.com/bigbigmdm/IMSProg/
 
-## Important: Add udev rules
+### Important: Add udev rules
 IMSProg need proper udev rules to access EEPROM programmer. IMSProg AppImage will prompt you to add udev rules when you run it for the first time; if the prompt does not appear or if you cancel the prompt, add udev rules manually by copying 71-CH341.rules to /etc/udev/rules.d/
  - Download udev rules
 	```sh
@@ -22,7 +22,7 @@ IMSProg need proper udev rules to access EEPROM programmer. IMSProg AppImage wil
 	sudo udevadm control --reload-rules && sudo udevadm trigger
 	```
 
-## Usage
+### Usage
  - Set permission
 	```sh
 	sudo chmod +x IMSProg-1.9.1-x86_64.AppImage
@@ -43,7 +43,7 @@ IMSProg need proper udev rules to access EEPROM programmer. IMSProg AppImage wil
 		./IMSProg-1.9.1-x86_64.AppImage IMSProg_database_update
 		```
 		
-## How to install IMSProg from source
+### How to install IMSProg from source
 **OS:** Arch Linux
  - Install software dependencies
 	 ```sh
@@ -60,7 +60,7 @@ IMSProg need proper udev rules to access EEPROM programmer. IMSProg AppImage wil
 	 sudo ./build_all.sh
 	 ``` 	
 	 
-## How to create AppImage
+### How to create AppImage
 ```sh
 mkdir appimage
 cd appimage
