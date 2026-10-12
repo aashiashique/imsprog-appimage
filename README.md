@@ -1,4 +1,6 @@
-[![GitHub Downloads](https://img.shields.io/github/downloads/aashiashique/imsprog-appimage/total?logo=github&label=GitHub%20Downloads)](https://github.com/aashiashique/imsprog-appimage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/aashiashique/imsprog-appimage/total?logo=github&label=GitHub%20Downloads)](https://github.com/aashiashique/imsprog-appimage/releases/latest) 
+[![Latest Stable Release](https://img.shields.io/github/v/release/aashiashique/imsprog-appimage)](https://github.com/aashiashique/imsprog-appimage/releases/latest) 
+
 # Unofficial AppImages for IMSProg
 IMSProg - software for CH341A-based programmers to work with I2C, SPI and MicroWire EEPROM/Flash chips
 
