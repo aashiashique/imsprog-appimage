@@ -47,7 +47,7 @@ IMSProg need proper udev rules to access EEPROM programmer. IMSProg AppImage wil
 **OS:** Arch Linux
  - Install software dependencies
 	 ```sh
-	 sudo pacman -Syu base-devel git cmake libusb libftdi pkgconf wget qt6-tools
+	 sudo pacman -Syu base-devel git cmake libusb libftdi pkgconf wget qt6-base qt6-tools
 	 ```
  - Download source code and extract
  	 ```sh
@@ -56,7 +56,7 @@ IMSProg need proper udev rules to access EEPROM programmer. IMSProg AppImage wil
 	 ```
  - Build IMSProg
  	 ```sh
-	 cd IMSProg_1.9.1
+	 cd IMSProg-1.9.1
 	 sudo ./build_all.sh
 	 ``` 	
 	 
