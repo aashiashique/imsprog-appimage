@@ -51,12 +51,12 @@ IMSProg need proper udev rules to access EEPROM programmer. IMSProg AppImage wil
 	 ```
  - Download source code and extract
  	 ```sh
-	 wget "https://github.com/bigbigmdm/IMSProg/archive/refs/tags/v1.9.1.tar.gz"
-	 tar xvzf v1.9.1.tar.gz
+	 wget "https://github.com/bigbigmdm/IMSProg/archive/refs/tags/v1.9.2.tar.gz"
+	 tar xvzf v1.9.2.tar.gz
 	 ```
  - Build IMSProg
  	 ```sh
-	 cd IMSProg-1.9.1
+	 cd IMSProg-1.9.2
 	 sudo ./build_all.sh
 	 ``` 	
 	 
