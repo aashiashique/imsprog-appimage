@@ -5,13 +5,13 @@ set -eu
 ARCH="$(uname -m)"
 SHARUN="https://raw.githubusercontent.com/pkgforge-dev/Anylinux-AppImages/refs/heads/main/useful-tools/quick-sharun.sh"
 EXTRA_PACKAGES="https://raw.githubusercontent.com/pkgforge-dev/Anylinux-AppImages/refs/heads/main/useful-tools/get-debloated-pkgs.sh"
-VERSION=1.9.1
+VERSION=1.9.2
 
 export ARCH
 export OUTPATH=./dist
 export ADD_HOOKS="udev-installer.hook"
-export ICON=/usr/share/pixmaps/IMSProg64.png
-export DESKTOP=/usr/share/applications/IMSProg.desktop
+export ICON=/usr/share/icons/hicolor/64x64/apps/io.github.bigbigmdm.imsprog.png
+export DESKTOP=/usr/share/applications/io.github.bigbigmdm.imsprog.desktop
 export MAIN_BIN=IMSProg
 export OUTNAME=IMSProg-v"$VERSION"_"$ARCH".AppImage
 export APPNAME=IMSProg
